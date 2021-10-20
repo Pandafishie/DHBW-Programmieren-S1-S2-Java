@@ -56,5 +56,6 @@ public class NumberGuess {
 				}
 			} while ((end < 0) || (end > 1));
 		} while (end == 1);
+		scan.close();
 	}
 }

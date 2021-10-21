@@ -1,18 +1,17 @@
-package de.dhbwka.java.alt_klausuren.snatchat;
+package de.dhbwka.java.exams.snatchat;
 
 public enum State {
 	AVAILABLE("Available"),
 	AWAY("Away"),
-	DND("Do not distrub");
-	
-	private String label;
+	DND("Do not disturb");
+
+	private final String label;
 
 	private State(String label) {
 		this.label = label;
 	}
 
-	String getLabel() {
+	public String getLabel() {
 		return label;
 	}
-	
 }
